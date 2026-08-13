@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Example</title>
+</head>
+
+<body>
+
+    <h1>HTML Form Example</h1>
+
+    <p>
+        This is an example of an
+        <s>HTML4</s>
+        <u>HTML5</u>
+        form containing various <mark>input</mark> controls:
+    </p>
+
+    <form>
+
+        <fieldset>
+            <legend>User Information</legend>
+
+            <label>
+                Username:
+                <input type="text" name="username">
+            </label>
+            <br><br>
+
+            <label>
+                Email:
+                <input type="email" name="email">
+            </label>
+            <br><br>
+
+            <label>
+                Password:
+                <input type="password" name="password">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <label>
+                Phone:
+                <input type="tel" name="phone">
+            </label>
+            <br><br>
+
+            <label>Message:</label>
+            <br>
+
+            <textarea name="message" rows="4" cols="50"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Subscription</legend>
+
+            <label>
+                <input type="checkbox" name="newsletter1">
+                Subscribe to newsletter:
+            </label>
+            <br>
+
+            <label>
+                <input type="checkbox" name="newsletter2">
+                Subscribe to newsletter:
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferred Language</legend>
+
+            <label>
+                Select your preferred language:
+                <select name="language">
+                    <option value="english" selected>English</option>
+                    <option value="spanish">Spanish</option>
+                    <option value="french">French</option>
+                    <option value="german">German</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Feedback</legend>
+
+            <label>
+                Rate our service:
+                <input type="range" name="rating" min="1" max="5">
+            </label>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
